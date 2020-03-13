@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Require PHP 7.2.5.
+- Support Laravel 7.
+
 ### Added
 
 - Use travis to test with different PHP, Laravel and PHPUnit versions.
