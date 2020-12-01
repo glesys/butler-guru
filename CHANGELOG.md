@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Support for PHP 8.
+
 ### Changed
 
 - **BKREAKING:** Requires PHP 7.4 and Laravel 7.
