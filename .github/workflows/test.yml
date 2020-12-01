@@ -6,7 +6,7 @@ jobs:
     name: Testing with Laravel ${{ matrix.laravel }} and PHP ${{ matrix.php }}
     strategy:
       matrix:
-        php: [7.4]
+        php: [7.4, 8.0]
         laravel: [^7.0, ^8.0]
     steps:
       - uses: actions/checkout@v2
