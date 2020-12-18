@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **BREAKING:** Upgrade bschmitt/laravel-amqp to ^2.0 and remove Lumen support
+- Use fork wecc/php-amqplib instead of php-amqplib/php-amqplib to better handle PHP 8
+
 
 ## [0.6.0] - 2020-12-09
 
