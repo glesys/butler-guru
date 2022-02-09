@@ -6,7 +6,6 @@ use Closure;
 
 class Amqp implements Driver
 {
-
     public function publish($routing, $message, array $properties = [])
     {
         \Amqp::publish($routing, $message, $properties);
