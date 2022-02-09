@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Log;
 
 class File implements Driver
 {
-
     public function publish($routing, $message, array $properties = [])
     {
         Log::debug("Event published: {$routing}", ['payload' => $message]);
